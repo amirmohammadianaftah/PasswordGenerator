@@ -3,7 +3,8 @@
  [Demo Project](https://amirmohammadianaftah.github.io/PasswordGenerator/)
 
  
- ![passG](https://github.com/user-attachments/assets/d171ce24-f776-4cf3-81b4-b8291313ba99)
+![passG](https://github.com/user-attachments/assets/d83eaccc-bcf5-42e1-b676-567e679a1e11)
+
   - 
 - Developed by Amir Mohammadian
 - Created - 2024-11-18
