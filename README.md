@@ -1,6 +1,6 @@
 # PasswordGenerator
 
- [Demo Project](https://amirmohammadianaftah.github.io/creditcard/)
+ [Demo Project](https://amirmohammadianaftah.github.io/PasswordGenerator/)
   - 
 - Developed by Amir Mohammadian
 - Created - 2024-11-18
