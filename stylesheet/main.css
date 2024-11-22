@@ -1,0 +1,228 @@
+body {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #26eca2, #0db9dd)
+}
+
+.box {
+    width: 500px;
+    height: 450px;
+    background-color: #1f2937;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    >* {
+        width: 70%;
+    }
+
+    >.txt {
+        height: 35%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        /* background-color: yellow; */
+
+        >div {
+            /* background-color: red; */
+            margin-top: 35px;
+
+            >h3 {
+                color: white;
+                font-size: 28px;
+            }
+
+            >h4 {
+                margin: 5px 0;
+                color: #55f98a;
+                font-size: 26px;
+            }
+
+            >p {
+                color: rgba(255, 255, 255, 0.625);
+            }
+        }
+    }
+
+    >.counter {
+        height: 20%;
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        >div {
+            height: 100%;
+            width: 45%;
+            /* background-color: yellow; */
+            display: flex;
+            align-items: center;
+
+            * {
+                border-radius: 5px;
+                border: none;
+            }
+
+            >.minus {
+                width: 30px;
+                height: 30px;
+                background-color: #10b981;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+
+                &:hover {
+                    background-color: #0db9dd;
+                }
+            }
+
+            >div {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #273549;
+                width: 40px;
+                height: 40px;
+                color: white;
+                margin: 0 5px;
+                color: #10b981;
+            }
+
+            >.plus {
+                width: 30px;
+                height: 30px;
+                background-color: #10b981;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+
+                &:hover {
+                    background-color: #0db9dd;
+                }
+            }
+        }
+
+        >.generator {
+            border: none;
+            width: 180px;
+            height: 30px;
+            border-radius: 5px;
+            background-color: #10b981;
+            font-style: 16px;
+            color: white;
+
+            &:hover {
+                background-color: #0db9dd;
+            }
+
+            >i {
+                margin-right: 5px;
+            }
+        }
+    }
+
+    >.place {
+        height: 45%;
+        /* background-color: aqua; */
+        border-top: 1px solid white;
+        display: flex;
+        flex-wrap: wrap;
+
+        >div {
+            &:first-of-type {
+                margin-top: 20px;
+                height: 110px;
+                /* background-color: red; */
+                display: flex;
+                flex-wrap: wrap;
+                align-items: flex-end;
+                justify-content: space-between;
+
+                >input {
+                    position: relative;
+                    border: none;
+                    outline: none;
+                    width: 160px;
+                    border-radius: 5px;
+                    height: 30px;
+                    background-color: #273549;
+                    color: #10b981;
+                    padding-left: 30px;
+
+                    &::placeholder {
+                        position: absolute;
+                        left: 50%;
+                        top: 50%;
+                        transform: translate(-50%, -50%);
+                    }
+                }
+            }
+
+            &:last-of-type {
+                width: 100%;
+                height: 30px;
+                /* background-color: yellow; */
+                display: flex;
+                justify-content: center;
+
+                >button {
+                    transition: 0.4s;
+                    /* display: none; */
+                    /* cursor: pointer; */
+                    margin-top: 10px;
+                    display: flex;
+                    opacity: 0;
+                    /* align-items: center; */
+                    /* justify-content: center; */
+                    /* background-color: red; */
+                    width: fit-content;
+                    height: fit-content;
+                    background-color: #1f2937;
+                    border: none;
+                    text-transform: uppercase;
+                    font-style: 22px;
+                    color: #26eca2;
+                }
+            }
+        }
+    }
+}
+
+
+footer {
+    >span {
+        font-family: primary;
+        position: absolute;
+        font-size: 30px;
+        bottom: 75px;
+        right: 20px;
+        color: black;
+    }
+
+    >div {
+        color: black;
+        /* background-color: yellow; */
+        position: absolute;
+        font-size: 30px;
+        bottom: 25px;
+        right: 20px;
+
+        >a {
+            /* background-color: yellow; */
+            color: black;
+        }
+    }
+}
+
+@font-face {
+    font-family: primary;
+    src: url(../fonst/GloriaHallelujah-Regular.ttf);
+}
